@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .AttributeTextWrapper-div {
+        @apply flex max-md:justify-between max-md:px-6 gap-2 
+        border-b-[1px] border-black
+    }
+    .Attribute-li {
+        @apply w-full min-h-[22rem] flex flex-col text-2xl
+    }
+    .Cyan-Link {
+        @apply hover:text-cyan-600 active:text-current
+        h-0
+    }
+}
